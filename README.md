@@ -17,7 +17,7 @@ This project provides an API for generating emails to an extenion and website us
 1. Clone the repository:
 
 ```bash
-git  clone  https://github.com/Wlyates00/ai-email-scribe-API
+git clone https://github.com/Wlyates00/ai-email-scribe-API
 
 cd <your-repository-folder>
 ```
@@ -25,7 +25,7 @@ cd <your-repository-folder>
 2. Install dependencies:
 
 ```bash
-npm  install
+npm install
 ```
 
 3. Create a .env file with your Open AI API key:
@@ -37,7 +37,7 @@ OPEN_API_KEY=your_openai_api_key
 4. Start API:
 
 ```bash
-node  api.js
+node api.js
 ```
 
 ## Endpoints
