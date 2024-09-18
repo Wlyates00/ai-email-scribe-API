@@ -30,10 +30,13 @@ cd <your-repository-folder>
 npm install
 ```
 
-3. Create a .env file with your Open AI API key:
+3. Create a .env file with the following keys: `.env.template INCLUDED`
 
 ```.env
 OPEN_API_KEY=your_openai_api_key
+STRIPE_KEY=your_private_stripe_key
+WEB_HOST=http://localhost:3000/
+CHROME_EXTENTION_ID=id_for_extension
 ```
 
 4. Start API:
